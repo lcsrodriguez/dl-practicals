@@ -24,7 +24,7 @@ digraph "Graph" {
 		rank=same
 		10
 		rank=same
-		111111 [label="Input Units: 10
+		111111 [label="Input Units: 13 (+3 more)
 Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
 	}
 	1 -> 11
@@ -245,14 +245,78 @@ Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
 	26 -> 29
 	27 -> 29
 	28 -> 29
+	21 -> 30
+	22 -> 30
+	23 -> 30
+	24 -> 30
+	25 -> 30
+	26 -> 30
+	27 -> 30
+	28 -> 30
+	21 -> 31
+	22 -> 31
+	23 -> 31
+	24 -> 31
+	25 -> 31
+	26 -> 31
+	27 -> 31
+	28 -> 31
+	21 -> 32
+	22 -> 32
+	23 -> 32
+	24 -> 32
+	25 -> 32
+	26 -> 32
+	27 -> 32
+	28 -> 32
+	subgraph cluster_3 {
+		color=white
+		rank=same
+		282828 [label="Units: 4
+Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
+		29 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		30 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		31 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		32 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	29 -> 33
+	30 -> 33
+	31 -> 33
+	32 -> 33
+	29 -> 34
+	30 -> 34
+	31 -> 34
+	32 -> 34
+	29 -> 35
+	30 -> 35
+	31 -> 35
+	32 -> 35
+	29 -> 36
+	30 -> 36
+	31 -> 36
+	32 -> 36
+	subgraph cluster_4 {
+		color=white
+		rank=same
+		323232 [label="Units: 4
+Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
+		33 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		34 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		35 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		36 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	33 -> 37
+	34 -> 37
+	35 -> 37
+	36 -> 37
 	subgraph cluster_output {
 		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
-		282828 [label="Output Units: 1
+		363636 [label="Output Units: 1
 Activation: relu" color=white fontcolor=black fontsize=18 shape=rectangle]
 		color=white
 		rank=same
 		labeljust=1
-		29 [color="#e74c3c" fontcolor="#e74c3c" shape=circle style=filled]
+		37 [color="#e74c3c" fontcolor="#e74c3c" shape=circle style=filled]
 	}
 	arrowShape=none
 }
