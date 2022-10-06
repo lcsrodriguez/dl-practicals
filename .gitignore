@@ -1,3 +1,4 @@
 sandbox/
 .DS_Store
+p*/img/out_*
 p*/ipynb_checkpoints/
