@@ -3,4 +3,7 @@ sandbox/
 p4/data/*.csv
 p4/data/*.txt
 p*/img/out_*
+
+.ipynb_checkpoints 
+p*/.ipynb_checkpoints
 p*/.ipynb_checkpoints/
