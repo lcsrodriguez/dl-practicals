@@ -1,5 +1,6 @@
 sandbox/
 .DS_Store
+p4/data/*.csv
 p4/data/*.txt
 p*/img/out_*
 p*/.ipynb_checkpoints/
